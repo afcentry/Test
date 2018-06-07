@@ -1,0 +1,23 @@
+﻿struct QueryRequest
+{
+	string JsonParams;	
+}
+
+struct QueryResponse
+{
+	int Error;
+	string Message;
+	string JsonResponse;	
+}
+
+protocol Query
+{
+	Type:HTTP;
+	Request:QueryRequest;
+	Response:QueryResponse;
+}
+
+server TwitterDatabaseServer
+{
+	protocol Query;
+}

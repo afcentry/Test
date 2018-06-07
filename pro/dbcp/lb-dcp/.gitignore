@@ -1,0 +1,12 @@
+.idea/
+build/
+dist/
+*.egg-info/
+db/
+*.db
+*.db.bak
+lib/
+*.zip
+*.whl
+config.yaml
+config.ini

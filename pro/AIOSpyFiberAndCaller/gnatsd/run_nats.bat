@@ -1,0 +1,1 @@
+ gnatsd.exe -c .\nats_config.txt

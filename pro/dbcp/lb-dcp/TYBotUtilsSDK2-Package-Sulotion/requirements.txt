@@ -1,0 +1,9 @@
+argparse
+dnspython
+requests
+chardet
+pandas
+numpy
+python-dateutil
+pytz
+six

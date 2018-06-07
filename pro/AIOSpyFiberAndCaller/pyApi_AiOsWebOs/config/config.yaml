@@ -1,0 +1,16 @@
+client:
+  myid: pyApiCall
+  client_listen_port: 0
+  servers:
+    - addr: 192.168.102.134
+      port: 8008
+
+
+FiberFBotUTRC:
+
+FiberUTRC:
+  Peer_FbUTRC_FBot_ServersAddr:  pyFiber_UTRC2 # 伙伴纤程服务器的地址
+
+  NATS_SERVER_ADDR: nats://lessnet:lessnet@192.168.102.134:4222  # 进程间通信的服务器
+  NTS_ProcessComu_ServerName: lessnet.app.Brain.FiberUTRC      # 本节点-作为服务端的名字
+

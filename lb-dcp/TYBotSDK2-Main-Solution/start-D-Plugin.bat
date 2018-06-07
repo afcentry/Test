@@ -1,0 +1,3 @@
+cd ./TYBotSDK2-Main/TY2_Bot_DRunPlugin
+python Tylb_Bot_Sock_Exec_DScanPlugin_Frame.py
+pasue

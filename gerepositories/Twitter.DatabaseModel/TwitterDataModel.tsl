@@ -1,0 +1,25 @@
+﻿//Twitter用户信息实体
+cell TwitterUser
+{
+	long UserId;	        //账号ID，Twitter内部ID
+	[Index]
+	string UserName;        //账号名称	
+	[Index]
+	string Email;           //账号关联邮箱
+	long Phone;             //账号关联手机号
+	List<CellId> Idols;     //账号关注的人
+	List<CellId> Fans;      //关注此账号的人
+	List<CellId> Tweets;    //该账号发表的推文
+}
+
+//Twitter推文实体
+cell Tweet
+{
+	long TweetId;                 //推文ID
+	CellId UserId;                //发表此推文的用户ID
+	[Index]
+	string Content;               //推文内容
+	List<CellId> MentionedUsers;  //推文@的其他用户列表
+	DateTime TweetTime;           //推文发表时间
+}
+

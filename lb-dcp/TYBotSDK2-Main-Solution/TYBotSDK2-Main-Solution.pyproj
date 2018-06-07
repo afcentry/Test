@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{032ef565-9d98-4fdf-a18e-76512749f874}</ProjectGuid>
+    <ProjectHome />
+    <StartupFile>TYBotSDK2-Main\TY2_Bot_DScan_Console\LessTYBot_2D_PromptTask.py</StartupFile>
+    <SearchPath />
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <ProjectTypeGuids>{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <InterpreterId>{2af0f10d-7135-4994-9156-5d01c9c11b7e}</InterpreterId>
+    <InterpreterVersion>2.7</InterpreterVersion>
+    <Name>TYBotSDK2-Main-Solution</Name>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>
+    <PtvsTargetsFile>$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets</PtvsTargetsFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="TYBotSDK2-Main\TY2_Bot_DRunPlugin\LessTYBot_2D_PluginScan.py" />
+    <Compile Include="TYBotSDK2-Main\TY2_Bot_DRunPlugin\Tylb_Bot_Sock_Exec_DScanPlugin_Frame.py" />
+    <Compile Include="TYBotSDK2-Main\TY2_Bot_DScan_Console\LessTYBot_2D_PromptTask.py" />
+    <Compile Include="TYBotSDK2-Main\TY2_Bot_DScan_Console\Tylb_Bot_Sock_Prompt_D_Task.py" />
+    <Compile Include="TYBotSDK2-Main\TY2_Bot_TaskRegCenter\Tylb_Bot_Sock_TaskRegCenter.py" />
+    <Compile Include="TYBotSDK2-Main\TY2_LB1_P2P_Srv\Tylb_Srv.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="readme.md" />
+    <Content Include="TYBotSDK2-Main\TY2_Bot_DRunPlugin\config\config.ini" />
+    <Content Include="TYBotSDK2-Main\TY2_Bot_DScan_Console\config\config.ini" />
+    <Content Include="TYBotSDK2-Main\TY2_Bot_DScan_Console\db\data.db" />
+    <Content Include="TYBotSDK2-Main\TY2_Bot_DScan_Console\d_task\needtask\domain.txt" />
+    <Content Include="TYBotSDK2-Main\TY2_Bot_TaskRegCenter\config\config.ini" />
+    <Content Include="TYBotSDK2-Main\TY2_Bot_TaskRegCenter\db\data.db" />
+    <Content Include="TYBotSDK2-Main\TY2_LB1_P2P_Srv\config\config.ini" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="TYBotSDK2-Main\" />
+    <Folder Include="TYBotSDK2-Main\TY2_Bot_DRunPlugin\" />
+    <Folder Include="TYBotSDK2-Main\TY2_Bot_DRunPlugin\config\" />
+    <Folder Include="TYBotSDK2-Main\TY2_Bot_DRunPlugin\db\" />
+    <Folder Include="TYBotSDK2-Main\TY2_Bot_DScan_Console\" />
+    <Folder Include="TYBotSDK2-Main\TY2_Bot_DScan_Console\config\" />
+    <Folder Include="TYBotSDK2-Main\TY2_Bot_DScan_Console\db\" />
+    <Folder Include="TYBotSDK2-Main\TY2_Bot_DScan_Console\d_task\" />
+    <Folder Include="TYBotSDK2-Main\TY2_Bot_DScan_Console\d_task\needtask\" />
+    <Folder Include="TYBotSDK2-Main\TY2_Bot_DScan_Console\d_task\result\" />
+    <Folder Include="TYBotSDK2-Main\TY2_Bot_TaskRegCenter\" />
+    <Folder Include="TYBotSDK2-Main\TY2_Bot_TaskRegCenter\config\" />
+    <Folder Include="TYBotSDK2-Main\TY2_Bot_TaskRegCenter\db\" />
+    <Folder Include="TYBotSDK2-Main\TY2_LB1_P2P_Srv\" />
+    <Folder Include="TYBotSDK2-Main\TY2_LB1_P2P_Srv\config\" />
+  </ItemGroup>
+  <ItemGroup>
+    <InterpreterReference Include="{2af0f10d-7135-4994-9156-5d01c9c11b7e}\2.7" />
+  </ItemGroup>
+  <Import Project="$(PtvsTargetsFile)" Condition="Exists($(PtvsTargetsFile))" />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" Condition="!Exists($(PtvsTargetsFile))" />
+</Project>

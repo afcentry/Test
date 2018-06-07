@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Trinity ConfigVersion="2.0">
+  <Local>
+    <Logging LogToFile="TRUE" EchoOnConsole="TRUE" LogDirectory="D:\TwitterData\log-dir" LoggingLevel="Debug" />
+    <Network HttpPort="8080" ClientMaxConn="10" />
+  </Local>
+  <Cluster>
+    <!--<Server Endpoint="127.0.0.1:5304" Template="server-template"/>-->
+    <!--<Server Endpoint="1.2.3.5:5304" Template="server-template"/>
+    <Server Endpoint="1.2.3.6:5304" Template="server-template">
+      --><!--This server has some extra settings--><!--
+      <LIKQ Timeout="90000" />
+      <Storage ReadOnly="FALSE" StorageRoot="D:\data2" StorageCapacity="Max4G"/>
+      <Network ClientSendRetry="2" />
+    </Server>-->
+  </Cluster>
+  <Template Id="server-template">
+    <Storage ReadOnly="TRUE" StorageRoot="D:\TwitterData" StorageCapacity="Max4G"/>
+  </Template>
+</Trinity>

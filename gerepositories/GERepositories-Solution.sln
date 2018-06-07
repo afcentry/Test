@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2037
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Twitter", "Twitter", "{07C78EDD-BFA8-44A3-A9E4-ACE47A61BAE1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Twitter.DatabaseModel", "Twitter.DatabaseModel\Twitter.DatabaseModel.csproj", "{DBF2A2ED-D3E3-4174-A301-D33BED221538}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Twitter.DatabaseServer", "Twitter.DatabaseServer\Twitter.DatabaseServer.csproj", "{1219E8FB-526F-43FD-A41F-800859FCFBE1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DBF2A2ED-D3E3-4174-A301-D33BED221538}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBF2A2ED-D3E3-4174-A301-D33BED221538}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBF2A2ED-D3E3-4174-A301-D33BED221538}.Debug|x64.ActiveCfg = Debug|x64
+		{DBF2A2ED-D3E3-4174-A301-D33BED221538}.Debug|x64.Build.0 = Debug|x64
+		{DBF2A2ED-D3E3-4174-A301-D33BED221538}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBF2A2ED-D3E3-4174-A301-D33BED221538}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBF2A2ED-D3E3-4174-A301-D33BED221538}.Release|x64.ActiveCfg = Release|x64
+		{DBF2A2ED-D3E3-4174-A301-D33BED221538}.Release|x64.Build.0 = Release|x64
+		{1219E8FB-526F-43FD-A41F-800859FCFBE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1219E8FB-526F-43FD-A41F-800859FCFBE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1219E8FB-526F-43FD-A41F-800859FCFBE1}.Debug|x64.ActiveCfg = Debug|x64
+		{1219E8FB-526F-43FD-A41F-800859FCFBE1}.Debug|x64.Build.0 = Debug|x64
+		{1219E8FB-526F-43FD-A41F-800859FCFBE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1219E8FB-526F-43FD-A41F-800859FCFBE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1219E8FB-526F-43FD-A41F-800859FCFBE1}.Release|x64.ActiveCfg = Release|x64
+		{1219E8FB-526F-43FD-A41F-800859FCFBE1}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DBF2A2ED-D3E3-4174-A301-D33BED221538} = {07C78EDD-BFA8-44A3-A9E4-ACE47A61BAE1}
+		{1219E8FB-526F-43FD-A41F-800859FCFBE1} = {07C78EDD-BFA8-44A3-A9E4-ACE47A61BAE1}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7202EE19-D784-407F-B643-58A177FC6563}
+	EndGlobalSection
+EndGlobal

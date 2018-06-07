@@ -1,0 +1,9 @@
+setup.py
+./testzhuangshiqi/zhuangshiqi.py
+testzhuangshiqi/__init__.py
+testzhuangshiqi/zhuangshiqi.py
+testzhuangshiqi.egg-info/PKG-INFO
+testzhuangshiqi.egg-info/SOURCES.txt
+testzhuangshiqi.egg-info/dependency_links.txt
+testzhuangshiqi.egg-info/requires.txt
+testzhuangshiqi.egg-info/top_level.txt

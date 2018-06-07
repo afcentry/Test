@@ -1,0 +1,13 @@
+client:
+    myid: test_server
+
+peerserver:
+  peer_server_listen_port: 8009
+  client_listen_port: 8008
+  peer_servers:
+    - addr: '0'
+      port: 0
+  clients:
+    - addr: '0'
+      port: 0
+

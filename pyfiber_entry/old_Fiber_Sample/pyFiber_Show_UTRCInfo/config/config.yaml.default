@@ -1,0 +1,8 @@
+client:
+  myid: pyFiber_Show_UTRCInfo
+
+
+FiberUTRC:
+  NATS_SERVER_ADDR: nats://lessnet:lessnet@192.168.10.116:4222  # 进程间通信的服务器
+  NTS_ProcessComu_ServerName: lessnet.app.Brain.FiberUTRC      # 进程间通信的名字
+

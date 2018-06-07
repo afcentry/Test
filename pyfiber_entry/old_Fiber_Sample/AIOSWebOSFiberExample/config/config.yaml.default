@@ -1,0 +1,15 @@
+client:
+  myid: FBotIDUnmanOSWeb   #FBot唯一ID
+  client_listen_port: 0
+  servers:
+    - addr: localhost    #TySrv中转服务器地址
+      port: 8008         #TySrv中转服务器端口
+
+
+FiberUTRC:
+  FbUTRC_ListenPeer_Port: 20  # 纤程TRC服务器的监听端口
+  Peer_FbUTRC_ServersAddr:   # 伙伴纤程服务器的地址
+
+  NATS_SERVER_ADDR: nats://lessnet:lessnet@192.168.102.164:4222  # 进程间通信的NATS消息队列服务器
+  NTS_ProcessComu_ServerName: lessnet.app.Brain.FiberUTRC      # 进程间通信Channel的名字
+
